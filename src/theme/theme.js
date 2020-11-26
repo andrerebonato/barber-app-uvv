@@ -5,7 +5,7 @@ import {
 } from 'react-native-responsive-dimensions';
 
 const colors = {
-    primary: '#F09000',
+    primary: '#0D47A1',
     secondary: '#16234D',
     describe: '#707070',
     green: '#4EB7BA',

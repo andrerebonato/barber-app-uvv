@@ -2,12 +2,11 @@ import { StyleSheet } from "react-native";
 
 import { RFValue } from "../../utils/fontSize";
 import { barberTheme } from "../../theme/theme";
-import configs from "../../configuration/index";
 
 const styles = StyleSheet.create({
     root: {
-        padding: 6,
-        paddingTop: 16,
+        padding: RFValue(6),
+        paddingTop: RFValue(16),
         backgroundColor: barberTheme.colors.white
     },
     content: {
@@ -15,16 +14,16 @@ const styles = StyleSheet.create({
         justifyContent: "space-between"
     },
     item: {
-        padding: 8,
-        marginTop: 24,
+        padding: RFValue(8),
+        marginTop: RFValue(24),
         flexDirection: "row",
         alignItems: "center"
     },
     image: {
         alignSelf: "center",
-        height: 45,
-        width: 80,
-        marginTop: 26
+        height: RFValue(45),
+        width: RFValue(80),
+        marginTop: RFValue(26)
     }
 });
 
